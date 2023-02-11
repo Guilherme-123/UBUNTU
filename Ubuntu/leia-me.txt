@@ -1,5 +1,5 @@
 Para ativar o arquivo você deve fazer:
 ----------------------------------------
+1 >> chmod +x ./Recursos_do_ubuntu_22_LTS.sh
 
-chmod +x ./"NOME_DO_ARQUIVO"
-./"NOME_DO_ARQUIVO"
+2 >> ./Recursos_do_ubuntu_22_LTS.sh
