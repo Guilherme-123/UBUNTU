@@ -23,6 +23,21 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install flathub org.inkscape.Inkscape
 flatpak install flathub com.visualstudio.code
 
+# Otimização do sistema
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get autoremove
+sudo apt-get clean
+sudo apt-get install htop preload
+htop
+sudo apt-get install compizconfig-settings-manager
+ccsm
+gnome-control-center
+sudo apt-get install zram-config
+sudo systemctl disable servicename
+
+
 # Finalizacao
 
 sudo apt update
